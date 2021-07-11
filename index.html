@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- icon in tab -->
+	<link rel="icon" href="assets/img/nepal.png">
+</head>
+<body>
+	<!--header content-->
+	<header class="profileHead">
+		<div class="heading">
+			<nav id="myHeader">
+				<a href="index.html">
+					<div class="logo">
+						<img src="assets/img/logo.png" alt="Logo">
+						<h5 >Bikram Pun</h5>
+					</div>
+				</a>
+				<ul id="head">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#project">Project</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>				
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--Content container-->
+	<section class="intro" id="home">
+		<div class="container">
+			<h4>Introduction</h4>
+			<h3 class="name">Hello, I'm Bikram Pun</h3>
+			<p id="profession">Professional Software Engineer+Programmer+Developer</p>
+			<div class="button">
+				<a href="#contact">Hire me</a>
+			</div>
+		</div>
+		<div class="profileImg">
+			<img src="assets/img/profile.jpg" alt="Profile">
+		</div>
+	</section>
+	<section id="about">
+		<div class="container">
+				<div class="lowerHead"></div>
+				<h5 class="aboutMY">ABOUT ME</h5>
+				<h2 class="aboutIntro">I'VE BEEN LEARNING...</h2>
+				<div class="progressbar">
+					<p class="progressText">C/C++ </p><progress class="progressSkills" value="88" max="100"></progress>
+					<p class="progressText">Web Design </p><progress class="progressSkills" value="68" max="100"></progress>
+					<p class="progressText">PHP </p><progress class="progressSkills" value="48" max="100"></progress>
+					<p class="progressText">MySql </p><progress class="progressSkills" value="48" max="100"></progress>
+					<p class="progressText">Java </p><progress class="progressSkills" value="58" max="100"></progress>
+				</div>
+		</div>
+	</section>
+	<section id="project">
+		<div class="container">
+			<div class="lowerHead"></div>
+			<h5 class="aboutMY">VIEW ALL</h5>
+			<h2 class="aboutProject">MY PROJECT</h2>
+			<div class="projectBox">
+				<div class="column1">
+					<div class="row1">
+						<a href="https://github.com/bikrampun/CPP-program/blob/main/Login_System.cpp">
+							<div>Project 1</div>
+							<div>Login System</div>
+						</a>
+						<a href="https://github.com/bikrampun/CPP-program/blob/main/inheritAccount.cpp">
+						<div>Project 2</div>
+						<div>Bank Account</div>
+						</a>
+					</div>
+				</div>
+				<div class="column2">
+					<div class="row2">
+						<a href="https://github.com/bikrampun/Java-Program/blob/main/project/puzzle.java">
+							<div>Project 3</div>
+							<div>Puzzle Game</div>
+						</a>
+						<a href="https://github.com/bikrampun/CPP-program/blob/main/projects/ticTacToe.cpp">
+							<div>Project 4</div>
+							<div>TicTacToe Game</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="lowerHead"></div>
+			<h5 class="aboutMY">CONTACT</h5>
+			<h2 class="aboutContact">Feel free to contact...</h2>
+			<div class="formFill">
+				<form action="#contact" method="post" class="contactForm">
+					<div class="wrap">
+						<input type="text" name="name" id="name" placeholder="Name" required>
+					</div>
+					<div class="wrap">
+						<input type="text" name="email" id="email" placeholder="Email" required>
+					</div>
+					<div class="wrap">
+						<textarea id="textArea" placeholder="Subject for Discussion" rows="10" cols="40" required></textarea>
+					</div>
+					<div class="wrap">
+						<input type="submit" name="submit" id="submit" value="Contact Me!">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="scrollTop">
+		<img id="toTop" src="assets/img/toTop.png" alt="toTop" onclick="goTop()">
+	</section>
+	<!-- Footer content-->
+	<footer class="footer">
+		<div class="footContent">
+			<nav class="footPosition">
+				<ul id="foot">
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#project">Project</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>				
+				</ul>
+			</nav>
+			<hr>
+			<div class="copyright">
+				<p>&copy; Copyright <span id="year"></span>. All rights reserved</p>
+			</div>
+		</div>
+	</footer>
+	<!-- script added -->
+	<script type="text/javascript" src="assets/js/year.js"></script>
+	<script type="text/javascript" src="assets/js/toTop.js"></script>
+</body>
+</html>
